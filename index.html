@@ -11,15 +11,14 @@
   <title>Frontend Mentor | QR code component | Desktop</title>
 
   <style>
-
     body {
       display: flex;
       justify-content: center;
     }
 
     .container {
-      width: 375px;
-      height: 667px;
+      width: 1440px;
+      height: 800px;
       background-color: hsl(212, 45%, 89%);
       display: flex;
       justify-content: center;
@@ -73,6 +72,14 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+
+
+    @media (max-width: 375px) {
+
+      .container {
+        width: 375px;
+      }
+    }
   </style>
 
 </head>
@@ -95,7 +102,7 @@
     </div>
 
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/krisz777/QRcodeChallenge.git">Krisztian Molnar</a>.
     </div>
 
